@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.layui-footer {
+  text-align: center;
+  font-size: 12px;
+}
+.iconfont {
+  margin-right: 8px;
+}
+.layui-nav-img {
+  width: 40px;
+  height: 40px;
+}
+.layui-layout-right li:hover {
+  border-bottom: 4px solid green;
+}
+.layui-nav-tree li:not(:nth-child(1)) a:hover {
+  border-left: 4px solid #009688;
+  background-color: #4e5465;
+}
+.layui-nav-tree li:nth-child(1) {
+  height: 61px;
+}
+.layui-nav-tree li:nth-child(1) a {
+  height: 61px;
+}
+.layui-nav-tree li:nth-child(2) {
+  background-color: #009688;
+}
+.layui-nav-tree li:nth-child(2) a {
+  color: white ;
+}
+.layui-nav-tree li:nth-child(2):hover {
+  background-color: #009688 !important;
+}
+.layui-nav-tree .layui-nav-img {
+  margin-left: 28px;
+  margin-top: 10px;
+}
+.layui-nav-tree .layui-icon-app {
+  margin-left: 20px;
+  margin-right: 8px;
+}

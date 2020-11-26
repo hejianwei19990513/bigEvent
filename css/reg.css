@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/login_bg.jpg);
+  background-size: cover;
+}
+.box {
+  width: 400px;
+  height: 310px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box .form-login,
+.box .form-reg {
+  overflow: hidden;
+}
+.box .form-login div:nth-child(2),
+.box .form-reg div:nth-child(2) {
+  margin-top: 0;
+}
+.box .form-login div,
+.box .form-reg div {
+  width: 340px;
+  margin: 15px auto;
+}
+.box .form-login div input,
+.box .form-reg div input {
+  padding-left: 32px;
+}
+.box .form-login div a,
+.box .form-reg div a {
+  float: right;
+}
+.box .form-login button,
+.box .form-reg button {
+  display: block;
+  width: 340px;
+  margin: 0 auto;
+  background-color: #1e9fff;
+}
+.box .form-login a,
+.box .form-reg a {
+  font-size: 12px;
+}
+.box .layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.box .form-title {
+  display: block;
+  height: 60px;
+  position: relative;
+}
+.box .form-title img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
